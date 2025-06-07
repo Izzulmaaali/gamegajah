@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 40px;
+}
+body {
+  background-image: url(./img/hutan.png);
+  background-size: 1400px 850px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 
+  -2px -2px 0 #000;
+  font-size: 25px;
+  outline-color: #000;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.elephant {
+  width: 350px;
+  transition: transform 0.5s;
+}
+
+.baby {
+  width: 320px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #005203;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
